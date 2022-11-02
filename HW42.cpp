@@ -4,14 +4,14 @@ using namespace std;
 
 int main() {
 int x,y,z;
-	cout<<"use your integers for this Draw{(x-y)*(x+z)/(x+y+z)^2+1\n}";
+	cout<<"use your integers for this Draw{(x-y)*(x+z)/(x+y+z)^2+1}\n";
 	cout<<"please use one Integer: ";
 	cin>>x;
 	cout<<"please use secend Integer: ";
 	cin>>y;
 	cout<<"please use third Integer: ";
 	cin>>z;
-int a,b,e,c,d,s,x2,y2,z2,xy,yz,zx;
+float a,b,c,d,x2,y2,z2,xy,yz,zx,e,s;
 	a=x-y;
 	cout<<"\nx-y="<<a;
 	b=x+z;
@@ -35,6 +35,6 @@ int a,b,e,c,d,s,x2,y2,z2,xy,yz,zx;
 	d=c+1;
 	cout<<"\nx2+y2+z2+xy+yz+zx+1="<<d;
 	s=e/d;
-	cout<<"\n{(x-y)*(x+z)/(x+y+z)^2+1="<<s;
+	cout<<"\n{(x-y)*(x+z)/(x+y+z)^2+1}="<<s;
 	cout<<"\nyour final ansewr is="<<s;
 }
