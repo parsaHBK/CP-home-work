@@ -21,6 +21,9 @@ switch(x)
 	case 'u':
 	cout<<"vowel";
 	break;
+	case 'y':
+	cout<<"vowel";
+	break;
 	default:
 	cout<<"its another carcter!";
 	break;
